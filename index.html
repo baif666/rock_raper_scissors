@@ -5,9 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Rock Paper Scissors</title>
+        <style>
+            #result {
+                height: 22px;
+            }
+        </style>
     </head>
     <body>
         <main>
+            <button onclick="playGame('Rock')">Rock</button>
+            <button onclick="playGame('Paper')">Paper</button>
+            <button onclick="playGame('Scissors')">Scissors</button>
+            <div id="result"></div>
+            <div>Human Score: <span id="human-score"></span></div>
+            <div>Computer Score: <span id="computer-score"></span></div>
             <script src="rock_raper_scissors.js"></script>
         </main>
     </body>
